@@ -54,5 +54,17 @@ namespace TestNinja.NUnitTests
             
             Assert.That(result, Is.EqualTo(1));
         }
+
+        // BETTER USE 1 METHOD WITH ARGUMENTS
+        [Test]
+        [TestCase(2, 1, 2)]
+        [TestCase(1, 2, 2)]
+        [TestCase(1, 1, 1)]
+        public void Max_WhenCalled_ReturnTheGreaterArgument(int x, int y, int expectedResult)
+        {
+            var result = _math.Max(x, y);
+            
+            Assert.That(result, Is.EqualTo(expectedResult));
+        }
     }
 }

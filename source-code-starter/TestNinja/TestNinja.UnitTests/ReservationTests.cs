@@ -7,12 +7,13 @@ namespace TestNinja.UnitTests
     // TESSTRUNNER LOOKS FOR ALL CLASSES WITH THIS ATTRIBUTE
     // RUN TEST: Ctrl+R A
     [TestClass]
+    // CONVENTION: <ClassName>Tests
     public class ReservationTests
     {
         // TESTRUNNER WILL RUN ALL METHODS WITH THIS ATTRIBUTE
         [TestMethod]
         // NAMING CONVENTION: MethodName_StateUnderTest_ExpectedBehavior
-        public void CanBeCancelledBy_UserIsAdmin_ReturnsTrue()
+        public void CanBeCancelledBy_AdminCancelling_ReturnsTrue()
         {
             // TRIPLE A CONVENTION: ARRANGE, ACT, ASSERT
 
@@ -27,7 +28,7 @@ namespace TestNinja.UnitTests
         }
 
         [TestMethod]
-        public void CanBeCancelledBy_UserIsHimself_ReturnsTrue()
+        public void CanBeCancelledBy_SameUserCancelling_ReturnsTrue()
         {
             // ARRANGE
             var reservation = new Reservation();
@@ -42,7 +43,7 @@ namespace TestNinja.UnitTests
         }
 
         [TestMethod]
-        public void CanBeCancelledBy_UserIsSomeOneElse_ReturnsFalse()
+        public void CanBeCancelledBy_AnotherUserCancelling_ReturnsFalse()
         {
             // ARRANGE
             var reservation = new Reservation();

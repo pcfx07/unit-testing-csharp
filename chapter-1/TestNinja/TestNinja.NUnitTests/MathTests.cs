@@ -7,12 +7,26 @@ namespace TestNinja.NUnitTests
     [TestFixture]
     public class MathTests
     {
+        private Math _math;
+        // SetUp
+        // TearDown (often used with integration tests)
+        
+        // WILL RUN BEFORE EACH TEST ENSURING _math ALWAYS
+        // RECEIVES A NEW INSTANCE OF Math()
+        [SetUp]
+        public void SetUp()
+        {
+            _math = new Math();
+        }
+        
         [Test]
         public void Add_WhenCalled_ReturnSumOfArguments()
         {
-            var math = new Math();
+            // EACH TEST SHOULD RECEIVE A NEW INSTANCE OF MATH CLASS
+            // BETTER USE [SetUp]
+//            var math = new Math();
 
-            var result = math.Add(1, 2);
+            var result = _math.Add(1, 2);
             
             Assert.That(result, Is.EqualTo(3));
         }
@@ -20,9 +34,7 @@ namespace TestNinja.NUnitTests
         [Test]
         public void Max_FirstArgumentGreater_ReturnFirstArgument()
         {
-            var math = new Math();
-
-            var result = math.Max(2, 1);
+            var result = _math.Max(2, 1);
             
             Assert.That(result, Is.EqualTo(2));
         }
@@ -30,9 +42,7 @@ namespace TestNinja.NUnitTests
         [Test]
         public void Max_SecondArgumentIsGreater_ReturnSecondArgument()
         {
-            var math = new Math();
-
-            var result = math.Max(1, 2);
+            var result = _math.Max(1, 2);
             
             Assert.That(result, Is.EqualTo(2));            
         }
@@ -40,9 +50,7 @@ namespace TestNinja.NUnitTests
         [Test]
         public void Max_BothArgumentsAreEqual_ReturnTheSameArgument()
         {
-            var math = new Math();
-
-            var result = math.Max(1, 1);
+            var result = _math.Max(1, 1);
             
             Assert.That(result, Is.EqualTo(1));
         }

@@ -25,3 +25,17 @@ C:\Users\Michael\code\unit-testing-csharp\source-code-starter\TestNinja\TestNinj
 C:\Users\Michael\code\unit-testing-csharp\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
 C:\Users\Michael\code\unit-testing-csharp\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\Users\Michael\code\unit-testing-csharp\source-code-starter\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\TestNinja.dll.config
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\TestNinja.dll
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\TestNinja.pdb
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\EntityFramework.dll
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\EntityFramework.xml
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\obj\Debug\TestNinja.csprojResolveAssemblyReference.cache
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CoreCompileInputs.cache
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\obj\Debug\TestNinja.dll
+C:\Users\Michael\code\unit-testing-csharp\chapter-1\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
